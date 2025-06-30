@@ -71,9 +71,6 @@ const EmailButton = () => {
   return (
     <a
       href="mailto:kaustubhvora60@gmail.com"
-      data-aos="fade-up"
-      data-aos-duration="600"
-      data-aos-delay="400"
       className={`inline-flex items-center space-x-3 px-8 py-4 rounded-xl border-2 transition-all duration-300 ${
         isHovered 
           ? 'border-blue-400 bg-blue-400/10 text-blue-400 shadow-lg shadow-blue-400/25' 
