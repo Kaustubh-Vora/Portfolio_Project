@@ -71,7 +71,9 @@ const EmailButton = () => {
   return (
     <a
       href="mailto:kaustubhvora60@gmail.com"
-      
+      data-aos="fade-up"
+      data-aos-duration="600"
+      data-aos-delay="400"
       className={`inline-flex items-center space-x-3 px-8 py-4 rounded-xl border-2 transition-all duration-300 ${
         isHovered 
           ? 'border-blue-400 bg-blue-400/10 text-blue-400 shadow-lg shadow-blue-400/25' 
@@ -128,7 +130,7 @@ export default function ContactSection() {
                     data-aos-delay="300"
                     className="text-2xl font-bold text-white mb-4"
                   >
-                    Let's Connect
+                    Let&apos;s Connect
                   </h3>
                   <p 
                     data-aos="fade-up"
@@ -136,7 +138,7 @@ export default function ContactSection() {
                     data-aos-delay="400"
                     className="text-lg text-gray-300 leading-relaxed"
                   >
-                    Let's collaborate, connect or chat. I'm always open to new ideas and opportunities!
+                    Let&apos;s collaborate, connect or chat. I&apos;m always open to new ideas and opportunities!
                   </p>
                 </div>
                 
@@ -174,7 +176,7 @@ export default function ContactSection() {
                     data-aos-delay="300"
                     className="text-2xl font-bold text-white mb-4"
                   >
-                    Let's Connect
+                    Let&apos;s Connect
                   </h3>
                   <p 
                     data-aos="fade-up"
@@ -182,7 +184,7 @@ export default function ContactSection() {
                     data-aos-delay="400"
                     className="text-lg text-gray-300 leading-relaxed"
                   >
-                    Let's collaborate, connect or chat. I'm always open to new ideas and opportunities!
+                    Let&apos;s collaborate, connect or chat. I&apos;m always open to new ideas and opportunities!
                   </p>
                 </div>
                 
